@@ -3,7 +3,7 @@ package cadeiraoo;
 
 public class Lacos {
 	
-	  public void testefor (int n1,int n2, Boolean crecente){
+	  public void Testefor (int n1,int n2, Boolean crecente){
 	      if(crecente == true){
 	        for(int i=n1; i <= n2;i++){
 	            System.out.println(i);   
@@ -16,7 +16,7 @@ public class Lacos {
 	      }
 
 	    }
-	  public void testewhile(int n1, int n2,Boolean crecente){
+	  public void Testewhile(int n1, int n2,Boolean crecente){
 	      if(crecente==true){
 	        int i=n1;
 	          while(i<=n2){
@@ -32,24 +32,3 @@ public class Lacos {
 	      }
 	    }
 	  }
-	public void testedoWhile(int n1 ,int n2 , Boolean crecente){
-		int i;
-		
-		if(crecente==true){
-		do {
-			i=n1;
-		   System.out.println(i);
-		   i++;
-		}while(i<=n2);
-	   }else {
-		do {
-			i=n2;
-			System.out.println(i);
-			i--;
-		}while(i>=n1);
-		
-	}
-		
-  }
-	
-}
